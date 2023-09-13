@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
 
         <title>Cv -page Web</title>
-
+        <link rel="stylesheet" href="css/styles.css">
     </head>
 
  
@@ -25,34 +25,37 @@
          
 
         <nav>
-
+         <div >
             <ul>
 
-                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Accueil"><h3>Accueil</h3></a></li>
                 
-                <li><a href="#à propos">à propos</a></li>
-                <li><a href="#Travail">Travail</a></li>
-                <li><a href="#CV">CV</a></li>
+                <li><a href="#à propos"><h3>a propos</h3></a></li>
+                <li><a href="#Travail"><h3>Travail</h3></a></li>
+                <li><a href="#CV"><h3>CV</h3></a></li>
 
 
 
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#contact"><h3>contact</h3></a></li>
                 
                 
             
 
             </ul>
-
+        </div>
         </nav>
 
     </br>
     <img src="C:\Users\ala\Desktop\HTML\photo ala.jpg" alt="Photo de ala" />
     </header>
+    <div class="Majuscule" >
+
+
+          <!-- section Acceueil -->
 
 <section>
-        <!-- section Acceueil -->
 
-    <P ID="Accueil">
+ <div ID="Accueil">   
     <h1>Accueil</h1>
         <!-- Ajoute audio -->
 
@@ -69,12 +72,13 @@
 	src="https://www.youtube.com/watch?v=3x4RiSQYtx8&ab_channel=WeFormYou"
 ></iframe>
 <br>
-        
+</div>
 
 </section>
         <!-- section à propos  -->
 
         <section>
+        <div id="propos">
 
                 <P ID="à propos">
                 <h1>À propos</h1>
@@ -85,10 +89,12 @@
                     efficace, je voudrais désormais développer et améliorer en continue mes compétences technique et managériale
                     dans les secteur industriel.</p>
 
+                </div>
 
         </section>
         <section>
         <!-- section CV -->
+    <div id="CV">
 
             
                 <P ID="CV"></P><h1>CV</h1>
@@ -96,29 +102,33 @@
                 <p>Ala eddine elmokhtar Ingenieur electrique et informatique industriel
                 </p>
 
+            </div>
 
         </section>
       
         
             <section>
         <!-- section Travail -->
-
+        <div id="Travail">
 
                 <P ID="Travail">
                 <h1>Travail</h1>
 
             <article>               
 
-                <h1> Ingenieur electrique et informatique industriel</h1>
-
+                <p> Ingenieur electrique et informatique industriel </p>
             </article>
+            </div>
 
         </section>
+        
                 <!--  footer conctact-->
 
         <footer>
+        <div id="footer">
 
-            <p id="contact"> Me contacter !
+
+            <p id="contact"><h1> Me contacter ! </h1>
              
                 <form action="#" method="post">
                     <label for="name">Name:</label>
@@ -129,10 +139,13 @@
                     <textarea id="message" name="message" rows="4" required></textarea><br><br>
                     <input type="submit" value="envoye">
                 </form>
+            </div>
 
         </footer>
+        
 
-         
+    </div>
+
 
     </body>
 
